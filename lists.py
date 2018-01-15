@@ -77,3 +77,41 @@ print(ALPHA_2)
 
 ALPHA_FULL = ALPHA_1 + ALPHA_2 + ALPHA_3
 print(ALPHA_FULL)
+
+
+
+#------------------------------
+# Min, max, sum, length methods
+#------------------------------
+
+NUMBERS_2 = [3.14, -5, 10, 10**4, 17]
+HELLO_WORLD = 'HelloWorld'
+
+print(min(NUMBERS_2))
+print(max(NUMBERS_2))
+print(sum(NUMBERS_2))
+print(len(NUMBERS_2))
+print(max(HELLO_WORLD))
+print(min(HELLO_WORLD))
+# print(sum(HELLO_WORLD))
+print(len(HELLO_WORLD))
+
+
+
+#------------------------------
+# List slicing
+#------------------------------
+
+A = list(range(0, 10))
+print(A)
+
+print(A[0:5])
+print(A[2:])
+print(A[:6])
+
+print(A[::2]) # step size = 2
+
+print(A[-1])
+
+print(A[2:-2])
+print(A[::-1])
