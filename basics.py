@@ -5,7 +5,7 @@
     In a command prompt, navigate to this directory and run `python ./basics.py`
 """
 
-from __future__ import braces
+# from __future__ import braces
 
 #------------------------------
 # Hello World in python
