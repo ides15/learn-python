@@ -3,5 +3,5 @@ class Person:
         self.name = name
         self.age = age
 
-    def print(self):
-        return "Name: %s, age: %i" % self.name, self.age
+    def display(self):
+        return "Name: %s, age: %i" % (self.name, self.age)
