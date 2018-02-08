@@ -15,7 +15,7 @@ def wordcount(fname):
 
     return count
 
-d = wordcount('functions.py')
+d = wordcount('some-textey-boi.txt')
 
 [(key, d[key]) for key in sorted(d, key=d.__getitem__, reverse=True)]
 # prints the word and number of occurances in a file sorted by number of occurances (value)
