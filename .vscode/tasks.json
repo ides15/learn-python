@@ -6,7 +6,7 @@
         {
             "label": "Run script",
             "type": "shell",
-            "command": "python ${file}",
+            "command": "python3 ${file}",
             "group": {
                 "kind": "build",
                 "isDefault": true

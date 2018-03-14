@@ -12,13 +12,13 @@ def mergeSort(array):
         mergeSort(right)
 
         leftIndex = rightIndex = finalIndex = 0
-        # compare each side of the array and input the lower number of the index into the final array
+        # compare each side of the array and input the lower number of the index into the final arr
         while leftIndex < len(left) and rightIndex < len(right):
             if left[leftIndex] < right[rightIndex]:
                 array[finalIndex] = left[leftIndex]
                 leftIndex += 1
             else:
-		array[finalIndex] = right[rightIndex]
+                array[finalIndex] = right[rightIndex]
                 rightIndex += 1
             finalIndex += 1
 
