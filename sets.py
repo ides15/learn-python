@@ -17,6 +17,5 @@ print(a)
 a.clear()
 print(a)
 
-a.pop()
+#a.pop()
 print(a)
-
