@@ -1,4 +1,5 @@
-__pycache__/
+__pycache__
 john-mom-900.jpg
 .vscode/
 .idea/
+.pylintrc
